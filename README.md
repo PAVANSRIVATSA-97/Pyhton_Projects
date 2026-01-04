@@ -20,3 +20,22 @@ Key Features: Tracks score, uses nested lists for questions, and handles user in
 
 Concepts: Truthiness (while q:), match-case statements, and input validation.
 
+4. 📂Intelligent File Organizer
+Automates file sorting by mapping extensions to directories.
+
+Logic: Uses os.makedirs(exist_ok=True) to handle existing directories without crashing.
+
+Path Handling: Implements dynamic path construction to resolve FileNotFoundError during cross-directory moves.
+
+5. 🗞️ News & AI Integration
+A dual-purpose tool that fetches news and processes text.
+
+JSON Parsing: Extracts nested data such as article["source"]["name"].
+
+Security: API keys are injected via .env files using load_dotenv
+
+6. 📱 Dynamic QR Code Generator
+A utility for generating high-resolution, customizable QR codes for URLs, text, or contact information.
+
+Logic: Utilizes the QRCode class for fine-grained control over versioning (matrix size) and error correction levels.
+
